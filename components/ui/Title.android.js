@@ -18,8 +18,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         borderColor: colors.primary400,
         padding: 12,
-       // borderWidth: Platform.OS === 'android' ? 2 : 0,
-        borderWidth: Platform.select({ios:0 , android: 2}),
+        borderWidth: 2,
         maxWidth: '80%', //берет размер родительского компонента
         width: 300,
     }

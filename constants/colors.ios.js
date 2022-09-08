@@ -1,4 +1,4 @@
-const Colors = {
+const ColorsIos = {
     primary700: '#72063c',
     primary600: '#620333',
     primary400: '#4b0125',
@@ -7,4 +7,4 @@ const Colors = {
     accent300: '#f3c62d',
 }
 
-export default Colors;
+export default ColorsIos;
